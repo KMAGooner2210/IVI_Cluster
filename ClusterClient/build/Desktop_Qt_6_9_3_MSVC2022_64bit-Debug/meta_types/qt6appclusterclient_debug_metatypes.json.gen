@@ -1,0 +1,274 @@
+[
+    {
+        "classes": [
+            {
+                "className": "MockCanReceiver",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "MockCanReceiver",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "speed",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "speedReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rpm",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "rpmReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "on",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "leftSignalReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "on",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "rightSignalReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "on",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "hazardReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 5,
+                        "name": "onTick",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "mockcanreceiver.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "VehicleDataController",
+                "lineNumber": 7,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "speed",
+                        "notify": "speedChanged",
+                        "read": "speed",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "rpm",
+                        "notify": "rpmChanged",
+                        "read": "rpm",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "leftOn",
+                        "notify": "leftOnChanged",
+                        "read": "leftOn",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "rightOn",
+                        "notify": "rightOnChanged",
+                        "read": "rightOn",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "hazard",
+                        "notify": "hazardChanged",
+                        "read": "hazard",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "VehicleDataController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "speedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "rpmChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "leftOnChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "rightOnChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "hazardChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "setSpeed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "setRpm",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "setLeftOn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 8,
+                        "name": "setRightOn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 9,
+                        "name": "setHazard",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "vehicledatacontroller.h",
+        "outputRevision": 69
+    }
+]
