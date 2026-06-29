@@ -1,6 +1,0 @@
-module ClusterClient
-typeinfo appClusterClient.qmltypes
-prefer :/qt/qml/ClusterClient/
-Main 1.0 Main.qml
-depends QtQuick
-

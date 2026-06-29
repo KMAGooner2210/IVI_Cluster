@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/ClusterClient">D:/code/Qt_Project/IVI_System/ClusterClient/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ClusterClient</file>
-
-  </qresource>
-</RCC>
